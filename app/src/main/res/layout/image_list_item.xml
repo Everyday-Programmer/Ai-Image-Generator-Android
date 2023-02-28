@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400sp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_item_image"/>
+
+    <ImageButton
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10sp"
+        android:src="@drawable/baseline_download_24"
+        android:id="@+id/list_item_download"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+
+</RelativeLayout>
