@@ -32,7 +32,7 @@ public class ImageGenerator {
         ArrayList<String> arrayList = new ArrayList<>();
         JSONObject js = new JSONObject();
         try {
-            String key = "kHL9nCCUo4p2YZumb8BOx79E7aw5tZeWl9STPfpwB6rOkwgc3dWUqIZ7QDhm";
+            String key = "Place your Stable Diffusion Api Key Here";
             js.put("key", key);
             js.put("prompt", prompt);
             js.put("samples", count);
